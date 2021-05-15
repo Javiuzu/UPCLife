@@ -1,114 +1,1790 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Club:" />
-
         <TextView
             android:padding="3dip"
             android:text="CRUPC" />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="President" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
             android:text="Iván Salfati Calleja" />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Mail:" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
             android:text="clubrolupc@gmail.com" />
     </TableRow>
 
-    <TableRow>
-
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Address:" />
-
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="C. Jordi Girona, 1-3 Edificio Omega - despacho S203b Campus Nord"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega- S203b"
             android:visibility="visible" />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Web" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
             android:text="https://www.facebook.com/crupc" />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Objective:" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
-            android:text="jaja roll a 20" />
+            android:text="Dar a conocer a los primerizos el mundo del rol." />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Activities:" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
-            android:text="jaja roll a 20" />
+            android:text="Partidas de rol semanales, partidas de juegos de mesa, torneos de cartas." />
     </TableRow>
 
     <TableRow>
-
         <TextView
             android:layout_column="1"
             android:padding="3dip"
             android:text="Membership:" />
-
         <TextView
-            android:gravity="right"
+            android:gravity="left"
             android:padding="3dip"
-            android:text="paga 5€ por cuatri" />
+            android:text="Tener ganas de ser parte de una comunidad abocada al rol en las actividades" />
     </TableRow>
 
     <View
         android:layout_height="2dip"
-        android:background="#FF909090" />
+        android:background="#FF909090" /> /* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="VGAFIB" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Oriol Duran Abelló" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="contacte@vgafib.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 104"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://vgafib.org/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Acercar a los jóvenes a la industria de los videojuegos." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser miembro de la FIB" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="themovieupc" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Christopher Dortignacq Meneses" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="themovieupc@gmail.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="-"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Dar a conocer, difundir, desarrallorar el cine" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Exhibición y maratones de obras audiovisuales" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Tecnologia per Tothom" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Fermín Sánchez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="reutilitza@txt.upc.edu" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio B6 - Campus Nord"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://txt.upc.edu/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Sensibilizar y contribuir al compromiso social y ambiental" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Apoyo al proyecto de cooperación en el ámbito de las TIC" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="SVGA" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Alejandro Quero Alvarez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="upcsvga@gmail.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 104"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://es-es.facebook.com/svgaupc" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Organizar torneos, mirar series, jugar a videojuegos." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Torneos de todo tipo y maratones de series" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante de la UPC" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Linux UPC" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Joan Vinyals Yila Català" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="linuxupc@disroot.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - S105"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://www.linuxupc.upc.edu" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Asociación dedicada al estudio y difusión de Software Libre." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Charlas, talleres, debates, proyectos y hackatons." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante de la UPC" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="L'Oasi" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Pau Celma Casals" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="oasiupc@gmail.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 103"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://www.facebook.com/lOasiFIB" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Actuar como canal de comunicación dentro de la FIB." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Publicación de la revista Oasis." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser miembro de la FIB" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Jedi" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Daniel Novoa Gómez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="jedi@jediupc.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Espai Emprén - Edificio C6"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://jediupc.com/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Obtener nuevos conocimientos informáticos no impartidos." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ofrecer servicios y proyectos a empresa." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser miembro de la FIB con motivación." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Hackeratupc" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Andrea Querol de Porras" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="support@hackersatupc.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - S103"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://hackersatupc.org" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Fomentar la cultura de creación de nuevas tecnologías." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Organizar charlas, la HackUPC e informar." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser miembro de la FIB" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="FIBAlumni" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Benito Cerrillo" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="cercle@fibalumni.net" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Cercle Fiber UPC, Campus Nord B6"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://www.fibalumni.net" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser un referente en la sociedad en tecnología." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Seminarios, encuentros TIC y Festibity." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser titulado de la FIB o miembro de la facultad." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="FIB Visiona" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Margarita Geleta Geleta" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="fibvisiona@fib.upc.edu" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 102"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://fibvisiona.com/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Conectar a alumnos y exalumnos FIBers con el sector TI." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Feria de empresas, talleres y charlas" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Estar vinculado a la FIB y aval de 2 miembros." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="DEFIB" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Alejandro Adán Navarro" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="defib@fib.upc.edu" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 102"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://defib.upc.edu/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Asesorar y representar al estudiantado FIB." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Orla, gestionar delegados y charlas." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante de la FIB." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Críptica" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Eduard Sanou" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="info@criptica.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 101"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://www.criptica.org/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Mantener los derechos humanos en la TIC." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Charlas y publicaciones." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="CEO" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Teresa Pilar Pérez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="ceo@ceo.upc.edu" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - S102"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://ceo.upc.edu/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Organizar actividades sobre oriente." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Proyecciones, coral y jornadas." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="CEFIB" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Joan Manel Finestres Baldrich" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="cefibupc@gmail.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - S204"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://www.facebook.com/CEFIB-Club-Esports-FIB-190158971025549" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Realizar y organizar deportes." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Competiciones internas." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser miembro del Servei d'Esports de la UPC." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="BEST" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Sergi González Navarro" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="contact@bestbarcelona.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio A3 - S105"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://bestbarcelona.org/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Promover Europa entre estudiantes." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante universitario." />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="Fiberparty" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Marc Benito Bermúdez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="info@fiberparty.org" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 101"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://fiberparty.org" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Organización de eventos tecnológicos." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Charlas, talleres y hackatons." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante de la FIB" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+        <TextView
+            android:padding="3dip"
+            android:text="FestaFIB" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Eric Pérez Ibáñez" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="festafib@gmail.com" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="169dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - 102"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="https://festafib.upc.edu/" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Organizar fiesta de primavera" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Actividades y preparación de fiestas." />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+        <TextView
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="Ser estudiante de la FIB" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />/* /////////////////////////////////////////////////////////// */
+
+    <EditText
+        android:id="@+id/f2_club"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Club"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_president"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="President"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_mail"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Mail"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_address"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Address"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_web"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Web"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_objective"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Objective"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_activities"
+        android:layout_column="1"
+        android:padding="3dip"
+        android:hint="Activities"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <EditText
+        android:id="@+id/f2_membership"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:hint="Membership"
+        android:inputType="textCapSentences|textAutoCorrect"
+        />
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        ></Button>
+
 
 </TableLayout>
