@@ -9,19 +9,19 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.kinoboes.upclife.databinding.FragmentHomeBinding;
+import com.kinoboes.upclife.databinding.FragmentEventosBinding;
 
 public class ClubsFragment extends Fragment {
 
     private ClubsViewModel homeViewModel;
-    private FragmentHomeBinding binding;
+    private FragmentEventosBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 new ViewModelProvider(this).get(ClubsViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentEventosBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;

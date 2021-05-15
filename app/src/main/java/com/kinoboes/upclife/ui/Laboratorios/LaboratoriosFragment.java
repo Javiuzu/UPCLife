@@ -9,19 +9,19 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.kinoboes.upclife.databinding.FragmentNotificationsBinding;
+import com.kinoboes.upclife.databinding.FragmentLaboratoriosBinding;
 
 public class LaboratoriosFragment extends Fragment {
 
     private LaboratoriosViewModel laboratoriosViewModel;
-    private FragmentNotificationsBinding binding;
+    private FragmentLaboratoriosBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         laboratoriosViewModel =
                 new ViewModelProvider(this).get(LaboratoriosViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentLaboratoriosBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;

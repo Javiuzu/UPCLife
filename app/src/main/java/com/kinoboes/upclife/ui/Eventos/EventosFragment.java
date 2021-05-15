@@ -1,4 +1,4 @@
-package com.kinoboes.upclife.ui.Events;
+package com.kinoboes.upclife.ui.Eventos;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,19 +9,19 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.kinoboes.upclife.databinding.FragmentDashboardBinding;
+import com.kinoboes.upclife.databinding.FragmentClubsBinding;
 
-public class EventsFragment extends Fragment {
+public class EventosFragment extends Fragment {
 
-    private EventsViewModel eventsViewModel;
-    private FragmentDashboardBinding binding;
+    private EventosViewModel eventosViewModel;
+    private FragmentClubsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        eventsViewModel =
-                new ViewModelProvider(this).get(EventsViewModel.class);
+        eventosViewModel =
+                new ViewModelProvider(this).get(EventosViewModel.class);
 
-        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+        binding = FragmentClubsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
 

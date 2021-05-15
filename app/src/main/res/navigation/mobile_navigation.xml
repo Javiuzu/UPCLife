@@ -9,17 +9,17 @@
         android:id="@+id/navigation_home"
         android:name="com.kinoboes.upclife.ui.Clubs.ClubsFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_eventos" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.kinoboes.upclife.ui.Events.EventsFragment"
+        android:name="com.kinoboes.upclife.ui.Eventos.EventosFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_clubs" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.kinoboes.upclife.ui.Laboratorios.LaboratoriosFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_laboratorios" />
 </navigation>

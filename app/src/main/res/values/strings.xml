@@ -1,12 +1,6 @@
 <resources>
-    <string name="app_name">UPCLife</string>
-<<<<<<< Updated upstream
-    <string name="tab_text_1">Eventos</string>
-    <string name="tab_text_2">Clubs</string>
-    <string name="tab_text_3">Laboratorios</string>
-=======
     <string name="title_home">Eventos</string>
     <string name="title_dashboard">Clubs</string>
     <string name="title_notifications">Laboratorios</string>
->>>>>>> Stashed changes
+    <string name="app_name">UPCLife</string>
 </resources>
