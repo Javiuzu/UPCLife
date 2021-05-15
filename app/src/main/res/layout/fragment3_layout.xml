@@ -12,4 +12,13 @@
         android:textSize="30sp"
         tools:ignore="MissingConstraints" />
 
+    <ExpandableListView
+        android:id="@+id/CompanionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
 </LinearLayout>
