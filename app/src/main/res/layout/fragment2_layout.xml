@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
     <TableRow>
 
@@ -23,7 +24,7 @@
             android:text="President" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="Iván Salfati Calleja" />
     </TableRow>
@@ -36,14 +37,12 @@
             android:text="Mail:" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="clubrolupc@gmail.com" />
     </TableRow>
 
-    <TableRow
-        android:layout_width="169dp"
-        android:layout_height="wrap_content">
+    <TableRow>
 
         <TextView
             android:layout_column="1"
@@ -51,10 +50,8 @@
             android:text="Address:" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="C. Jordi Girona, 1-3 Edificio Omega- S203b"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - despacho S203b Campus Nord"
             android:visibility="visible" />
     </TableRow>
 
@@ -66,7 +63,7 @@
             android:text="Web" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="https://www.facebook.com/crupc" />
     </TableRow>
@@ -79,7 +76,7 @@
             android:text="Objective:" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="jaja roll a 20" />
     </TableRow>
@@ -92,7 +89,7 @@
             android:text="Activities:" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="jaja roll a 20" />
     </TableRow>
@@ -105,87 +102,13 @@
             android:text="Membership:" />
 
         <TextView
-            android:gravity="left"
+            android:gravity="right"
             android:padding="3dip"
             android:text="paga 5€ por cuatri" />
     </TableRow>
 
     <View
         android:layout_height="2dip"
-        android:background="#FF909090" /> /* /////////////////////////////////////////////////////////// */
-
-    <EditText
-        android:id="@+id/f2_club"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Club"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_president"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="President"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_mail"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Mail"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_address"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Address"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_web"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Web"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_objective"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Objective"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_activities"
-        android:layout_column="1"
-        android:padding="3dip"
-        android:hint="Activities"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <EditText
-        android:id="@+id/f2_membership"
-        android:layout_column="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="3dip"
-        android:hint="Membership"
-        android:inputType="textCapSentences|textAutoCorrect"
-        />
-
-    <Button
-        android:id="@+id/submit2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        ></Button>
-
+        android:background="#FF909090" />
 
 </TableLayout>
