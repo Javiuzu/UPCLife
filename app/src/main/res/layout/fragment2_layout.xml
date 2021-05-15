@@ -1,15 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Clubs"
-        android:textSize="30sp"
-        tools:ignore="MissingConstraints" />
+    <TableRow>
 
-</LinearLayout>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Club:" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="CRUPC" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="President" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Iván Salfati Calleja" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mail:" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="clubrolupc@gmail.com" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Address:" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="C. Jordi Girona, 1-3 Edificio Omega - despacho S203b Campus Nord"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Web" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="https://www.facebook.com/crupc" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Objective:" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="jaja roll a 20" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Activities:" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="jaja roll a 20" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Membership:" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="paga 5€ por cuatri" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+</TableLayout>
