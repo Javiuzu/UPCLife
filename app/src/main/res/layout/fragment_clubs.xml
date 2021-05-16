@@ -14,9 +14,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="CRUPC" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crupc"
+                />
         </TableRow>
 
         <TableRow>
@@ -110,9 +113,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="VGAFIB" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vgafib"
+                />
         </TableRow>
 
         <TableRow>
@@ -205,9 +211,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="themovieupc" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/themovieupc"
+                />
         </TableRow>
 
         <TableRow>
@@ -300,9 +309,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Tecnologia per Tothom" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/txt"
+                />
         </TableRow>
 
         <TableRow>
@@ -395,9 +407,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="SVGA" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/svga"
+                />
         </TableRow>
 
         <TableRow>
@@ -490,9 +505,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Linux UPC" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linuxupc"
+                />
         </TableRow>
 
         <TableRow>
@@ -585,9 +603,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="L'Oasi" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/oasi"
+                />
         </TableRow>
 
         <TableRow>
@@ -680,9 +701,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Jedi" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jedi"
+                />
         </TableRow>
 
         <TableRow>
@@ -775,9 +799,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Hackeratupc" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hackers"
+                />
         </TableRow>
 
         <TableRow>
@@ -870,9 +897,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="FIBAlumni" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fibalumni"
+                />
         </TableRow>
 
         <TableRow>
@@ -965,9 +995,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="FIB Visiona" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fibvisiona"
+                />
         </TableRow>
 
         <TableRow>
@@ -1060,9 +1093,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="DEFIB" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/defib"
+                />
         </TableRow>
 
         <TableRow>
@@ -1155,9 +1191,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Críptica" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/criptica"
+                />
         </TableRow>
 
         <TableRow>
@@ -1250,9 +1289,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="CEO" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ceo"
+                />
         </TableRow>
 
         <TableRow>
@@ -1345,9 +1387,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="CEFIB" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cefib"
+                />
         </TableRow>
 
         <TableRow>
@@ -1440,9 +1485,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="BEST" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/best"
+                />
         </TableRow>
 
         <TableRow>
@@ -1535,9 +1583,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="Fiberparty" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiberparty"
+                />
         </TableRow>
 
         <TableRow>
@@ -1630,9 +1681,12 @@
                 android:layout_column="1"
                 android:padding="3dip"
                 android:text="Club:" />
-            <TextView
+            <ImageView
                 android:padding="3dip"
-                android:text="FestaFIB" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/festafib"
+                />
         </TableRow>
 
         <TableRow>
