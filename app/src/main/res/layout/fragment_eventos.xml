@@ -42,7 +42,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/crupcicon"
-                        android:text="Minijornadas \n\n [CRUPC]"
+                        android:text="Minijornadas \n\n [CRUPC] \n 17:00"
                         android:textSize="11sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -55,7 +55,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/festafib"
-                        android:text="FestaFIB \n\n[Plaza]"
+                        android:text="FestaFIB \n\n[Plaza]\n Todo el día"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event1"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/vga"
-                        android:text="Torneo \n\n[VGA]"
+                        android:text="Torneo \n\n[VGA]\n14:30"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event2"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -81,7 +81,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/pong"
-                        android:text="Ping-Pong \n\n[Plaza]"
+                        android:text="Ping-Pong \n\n[Plaza]\n18:00"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event3"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -94,7 +94,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/hack"
-                        android:text="HackUPC \n\n[A2-A6]"
+                        android:text="HackUPC \n\n[A2-A6]\n12:00"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event4"
                         app:layout_constraintTop_toTopOf="parent" />
