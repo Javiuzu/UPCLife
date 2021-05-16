@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:text="Subject: " />
+            android:text="Course: " />
         <TextView
             android:id="@+id/textViewAssig"
             android:layout_width="wrap_content"

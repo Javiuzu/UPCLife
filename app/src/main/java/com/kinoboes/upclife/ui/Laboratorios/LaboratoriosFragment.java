@@ -1,24 +1,35 @@
 package com.kinoboes.upclife.ui.Laboratorios;
 
+import android.content.Context;
+import android.content.Intent;
 import android.database.DataSetObserver;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.ScrollView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.kinoboes.upclife.MainActivity;
 import com.kinoboes.upclife.R;
 import com.kinoboes.upclife.databinding.FragmentLaboratoriosBinding;
 
@@ -27,6 +38,7 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class LaboratoriosFragment extends Fragment {
 
     private LaboratoriosViewModel laboratoriosViewModel;
@@ -34,8 +46,7 @@ public class LaboratoriosFragment extends Fragment {
 
     private LinearLayout linearLayout;
     private List<LabCompanion> companionList;
-    private TextView nameTextView;
-    private TextView commentTextView;
+    private FloatingActionButton fab;
 
     private void initiateCompanionList() {
         companionList = new ArrayList<LabCompanion>();
@@ -88,7 +99,67 @@ public class LaboratoriosFragment extends Fragment {
 
         initiateCompanionList();
 
+        fab = (FloatingActionButton)root.findViewById(R.id.floating_button);
+        fab.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.addfloating_foreground));
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LinearLayout popupLayout = (LinearLayout) LayoutInflater.from(getActivity()).inflate(R.layout.popup_laboratorio, null);
+                PopupWindow pw = new PopupWindow(popupLayout,
+                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                pw.setFocusable(true);
+                pw.showAtLocation(popupLayout, Gravity.CENTER, 0,0);
+                Spinner spinner = popupLayout.findViewById(R.id.spinner);
+                spinner.setAdapter(new ArrayAdapter<LabCompanion.Assigs>(root.getContext(), android.R.layout.simple_spinner_item, LabCompanion.Assigs.values()));
+                EditText nameText = (EditText) popupLayout.findViewById(R.id.editTextTextPersonName3);
+                EditText commentText = (EditText) popupLayout.findViewById(R.id.editTextComment);
+                Button saveButton = (Button)popupLayout.findViewById(R.id.SaveButton);
+                saveButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        LabCompanion lc;
+                        if (commentText.getText().toString().equals("")) {
+                            lc = new LabCompanion(nameText.getText().toString(), (LabCompanion.Assigs)spinner.getSelectedItem());
+                        }
+                        else lc = new LabCompanion(nameText.getText().toString(), (LabCompanion.Assigs)spinner.getSelectedItem(), commentText.getText().toString());
+                        companionList.add(lc);
 
+
+                        LinearLayout wrapper = (LinearLayout) LayoutInflater.from(getActivity()).inflate(R.layout.partnerlayout, null);
+
+                        TextView nameText = (TextView)wrapper.findViewById(R.id.textViewName);
+                        nameText.setText(lc.getName());
+
+                        TextView assigText = (TextView)wrapper.findViewById(R.id.textViewAssig);
+                        assigText.setText(lc.getAssig());
+
+                        TextView commentText = (TextView)wrapper.findViewById(R.id.CommentTextView);
+                        commentText.setText(lc.getComment());
+
+                        Button button = (Button)wrapper.findViewById(R.id.partnerButton);
+                        button.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Toast t = Toast.makeText(root.getContext(), "Partner contacted", Toast.LENGTH_SHORT);
+                                t.show();
+                            }
+                        });
+
+                        linearLayout.addView(wrapper);
+                        pw.dismiss();
+                    }
+                    ;
+                });
+                Button backButton = (Button)popupLayout.findViewById(R.id.backButton);
+                backButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        pw.dismiss();
+                    }
+                });
+
+            }
+        });
 
 
 
