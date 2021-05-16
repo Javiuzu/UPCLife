@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="?attr/actionBarSize">
 
     <TextView
         android:layout_width="wrap_content"
@@ -11,11 +12,24 @@
         android:text="Laboratorios"
         android:textSize="30sp"
         tools:ignore="MissingConstraints" />
-
-    <ExpandableListView
-        android:id="@+id/CompanionList"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/scrollLayout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
 
 
 </LinearLayout>

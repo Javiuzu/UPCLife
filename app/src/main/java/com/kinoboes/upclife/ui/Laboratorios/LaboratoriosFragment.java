@@ -1,16 +1,30 @@
 package com.kinoboes.upclife.ui.Laboratorios;
 
+import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ExpandableListAdapter;
+import android.widget.ExpandableListView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.kinoboes.upclife.R;
 import com.kinoboes.upclife.databinding.FragmentLaboratoriosBinding;
 
+import org.w3c.dom.Text;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class LaboratoriosFragment extends Fragment {
@@ -18,7 +32,24 @@ public class LaboratoriosFragment extends Fragment {
     private LaboratoriosViewModel laboratoriosViewModel;
     private FragmentLaboratoriosBinding binding;
 
-    //private List<LabCompanion> companionList;
+    private LinearLayout linearLayout;
+    private List<LabCompanion> companionList;
+    private TextView nameTextView;
+    private TextView commentTextView;
+
+    private void initiateCompanionList() {
+        companionList = new ArrayList<LabCompanion>();
+        LabCompanion lc= new LabCompanion("Takumi Fujiwara", LabCompanion.Assigs.PRO2, "Looking for someone to code, drift and listen to DEJA VU");
+        companionList.add(lc);
+        lc = new LabCompanion("Banana Martinez", LabCompanion.Assigs.DSBM);
+        companionList.add(lc);
+        lc = new LabCompanion("Charles Hillworld", LabCompanion.Assigs.MP, "Catalan hardworking student looking for another hardworking student");
+        companionList.add(lc);
+        lc = new LabCompanion("DarkLord Palpatine", LabCompanion.Assigs.ECSDI, "In Dark Plagueis the wise group");
+        companionList.add(lc);
+        lc = new LabCompanion("Little Jorge", LabCompanion.Assigs.LP);
+        companionList.add(lc);
+    }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -27,12 +58,38 @@ public class LaboratoriosFragment extends Fragment {
 
         binding = FragmentLaboratoriosBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        /**
-        LabCompanion lc= new LabCompanion("Takumi Fujiwara", LabCompanion.Assigs.PRO2, "Looking for someone to code, drift and listen to DEJA VU");
-        CompanionList.add(lc);
-        lc = new LabCompanion("Banana Martinez", LabCompanion.Assigs.DSBM);
-        CompanionList.add(lc);
-    **/
+
+        linearLayout = (LinearLayout)root.findViewById(R.id.scrollLayout);
+        initiateCompanionList();
+        for(int i = 0; i < companionList.size(); ++i) {
+            LinearLayout wrapper = (LinearLayout) LayoutInflater.from(getActivity()).inflate(R.layout.partnerlayout, null);
+
+            TextView nameText = (TextView)wrapper.findViewById(R.id.textViewName);
+            nameText.setText(companionList.get(i).getName());
+
+            TextView assigText = (TextView)wrapper.findViewById(R.id.textViewAssig);
+            assigText.setText(companionList.get(i).getAssig());
+
+            TextView commentText = (TextView)wrapper.findViewById(R.id.CommentTextView);
+            commentText.setText(companionList.get(i).getComment());
+
+            Button button = (Button)wrapper.findViewById(R.id.partnerButton);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast t = Toast.makeText(root.getContext(), "Partner contacted", Toast.LENGTH_SHORT);
+                    t.show();
+                }
+            });
+
+            linearLayout.addView(wrapper);
+        }
+
+
+        initiateCompanionList();
+
+
+
 
 
         return root;
