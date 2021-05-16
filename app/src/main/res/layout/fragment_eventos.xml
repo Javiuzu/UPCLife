@@ -42,7 +42,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/crupcicon"
-                        android:text="Minijornadas \n\n [CRUPC]"
+                        android:text="Mini-sessions \n\n [CRUPC]\n 18:00"
                         android:textSize="11sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -55,7 +55,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/festafib"
-                        android:text="FestaFIB \n\n[Plaza]"
+                        android:text="FestaFIB \n\n[Main square]\nAll day"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event1"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/vga"
-                        android:text="Torneo \n\n[VGA]"
+                        android:text="Tourney \n\n[VGA]\n14:30"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event2"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -81,7 +81,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/pong"
-                        android:text="Ping-Pong \n\n[Plaza]"
+                        android:text="Ping-Pong \n\n[Main square]\n17:00"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event3"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -94,7 +94,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:drawableTop="@drawable/hack"
-                        android:text="HackUPC \n\n[A2-A6]"
+                        android:text="HackUPC \n\n[A2-A6]\nAll day"
                         android:textSize="11sp"
                         app:layout_constraintStart_toEndOf="@id/event4"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -174,30 +174,37 @@
                     <Button
                         android:id="@+id/button6"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="80dp"
                         android:padding="10dp"
                         android:text="CRUPC" />
 
                     <Button
                         android:id="@+id/button7"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="80dp"
                         android:padding="10dp"
                         android:text="DSBM 70" />
 
                     <Button
                         android:id="@+id/button8"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="80dp"
                         android:padding="10dp"
                         android:text="SOA 20" />
 
                     <Button
                         android:id="@+id/button9"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="80dp"
                         android:padding="10dp"
                         android:text="Specialization: Computer Engineering" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="10dp"
+                        android:text="FIB Student" />
                 </LinearLayout>
 
 
