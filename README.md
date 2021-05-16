@@ -1,23 +1,5 @@
 # UPCLife
+This project was made during HackUPC2021.
 
-Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend.
+This app allows clubs and associations to publish information that can be useful to the students, such as location, how to join, which clubs they have already joined and need to pay membership for, and announce upcoming events. Students can keep track of events happening on campus as well as create groups (for example, study groups) which can also have events of their own. The app also provides a section to look for lab partners and study buddies for the courses the student is signed up to.
 
-## Installation
-
-Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying.
-
-```bash
-pip install dark_side
-```
-
-## Usage
-
-The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did.
-
-## Contributing
-
-Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.
-
-## License
-
-Ironic. He could save others from death, but not himself.
